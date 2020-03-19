@@ -18,6 +18,7 @@
 		CE963E2C24232D84005FDB26 /* Blue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE963E2B24232D84005FDB26 /* Blue.storyboard */; };
 		CE963E2E24232D97005FDB26 /* Pink.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE963E2D24232D97005FDB26 /* Pink.storyboard */; };
 		CE963E3024233263005FDB26 /* Purple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE963E2F24233263005FDB26 /* Purple.storyboard */; };
+		CE963E322423358C005FDB26 /* Brown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE963E312423358C005FDB26 /* Brown.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		CE963E2B24232D84005FDB26 /* Blue.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Blue.storyboard; sourceTree = "<group>"; };
 		CE963E2D24232D97005FDB26 /* Pink.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pink.storyboard; sourceTree = "<group>"; };
 		CE963E2F24233263005FDB26 /* Purple.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Purple.storyboard; sourceTree = "<group>"; };
+		CE963E312423358C005FDB26 /* Brown.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Brown.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CE963E182422379C005FDB26 /* Main.storyboard */,
 				CE963E27242327BB005FDB26 /* Green.storyboard */,
 				CE963E2924232D75005FDB26 /* Yellow.storyboard */,
+				CE963E312423358C005FDB26 /* Brown.storyboard */,
 				CE963E2B24232D84005FDB26 /* Blue.storyboard */,
 				CE963E2F24233263005FDB26 /* Purple.storyboard */,
 				CE963E2D24232D97005FDB26 /* Pink.storyboard */,
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE963E322423358C005FDB26 /* Brown.storyboard in Resources */,
 				CE963E3024233263005FDB26 /* Purple.storyboard in Resources */,
 				CE963E28242327BB005FDB26 /* Green.storyboard in Resources */,
 				CE963E2A24232D75005FDB26 /* Yellow.storyboard in Resources */,

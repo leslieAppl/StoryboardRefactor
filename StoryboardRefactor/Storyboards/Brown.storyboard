@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K9g-Ib-tyd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="eh2-mv-WfY">
+            <objects>
+                <viewController id="K9g-Ib-tyd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2HP-6b-6Mg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huk-Aj-JtK">
+                                <rect key="frame" x="147" y="418" width="120" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="NIl-3h-q8a"/>
+                                    <constraint firstAttribute="width" constant="120" id="UGN-zS-wPQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4gB-H1-F7g" kind="show" id="nUd-1g-tXH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="huk-Aj-JtK" firstAttribute="centerY" secondItem="2HP-6b-6Mg" secondAttribute="centerY" id="8dx-zr-V2w"/>
+                            <constraint firstItem="huk-Aj-JtK" firstAttribute="centerX" secondItem="2HP-6b-6Mg" secondAttribute="centerX" id="cxL-oa-cNr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="g8c-zK-6qx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="W7Q-ds-Agv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kgA-mu-3XJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2741" y="74"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k0b-p2-sh8">
+            <objects>
+                <viewController id="4gB-H1-F7g" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SJy-LH-Rxz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqI-hg-MTI">
+                                <rect key="frame" x="147" y="391" width="120" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="FUj-fb-YXf"/>
+                                    <constraint firstAttribute="height" constant="60" id="zNd-tl-PLa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jqI-hg-MTI" firstAttribute="centerX" secondItem="SJy-LH-Rxz" secondAttribute="centerX" id="VKa-y7-cpq"/>
+                            <constraint firstItem="jqI-hg-MTI" firstAttribute="centerY" secondItem="SJy-LH-Rxz" secondAttribute="centerY" id="oaK-qu-jyQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="f8H-IF-cJa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="U12-5Z-TcZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oet-Vf-gCy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3406" y="74"/>
+        </scene>
+    </scenes>
+</document>
