@@ -39,6 +39,7 @@
                         <viewLayoutGuide key="safeArea" id="g8c-zK-6qx"/>
                     </view>
                     <navigationItem key="navigationItem" id="W7Q-ds-Agv"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kgA-mu-3XJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -49,11 +50,11 @@
             <objects>
                 <viewController id="4gB-H1-F7g" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SJy-LH-Rxz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqI-hg-MTI">
-                                <rect key="frame" x="147" y="391" width="120" height="60"/>
+                                <rect key="frame" x="147" y="418" width="120" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="FUj-fb-YXf"/>
