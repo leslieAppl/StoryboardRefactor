@@ -32,7 +32,7 @@
         <scene sceneID="hfc-wU-4DM">
             <objects>
                 <viewControllerPlaceholder storyboardName="Green" id="3yi-C5-psd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="UyJ-E0-lNp"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="UyJ-E0-lNp"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Idx-2G-yDi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,7 +42,7 @@
         <scene sceneID="qCs-xJ-L3q">
             <objects>
                 <viewControllerPlaceholder storyboardName="Blue" id="d7c-1y-Kdc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ttW-WH-u5k"/>
+                    <tabBarItem key="tabBarItem" systemItem="downloads" id="ttW-WH-u5k"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hpq-Wa-VL2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,7 +52,7 @@
         <scene sceneID="heL-YP-6CD">
             <objects>
                 <viewControllerPlaceholder storyboardName="Yellow" id="2HD-JJ-vbh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Ywz-4X-4ff"/>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="Ywz-4X-4ff"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NK5-xK-0Gz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,7 +62,7 @@
         <scene sceneID="2dl-cc-Tkh">
             <objects>
                 <viewControllerPlaceholder storyboardName="Pink" id="Q8N-qj-krm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="gnz-RE-SIB"/>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="gnz-RE-SIB"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aD7-WM-egU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
