@@ -84,7 +84,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="avF-T0-NV8" kind="show" id="w5d-QD-Qsi"/>
+                                    <segue destination="kky-uJ-C7q" kind="show" id="rab-ej-6gQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -101,39 +101,15 @@
             </objects>
             <point key="canvasLocation" x="1580" y="68"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="NeU-up-6T0">
+        <!--Purple-->
+        <scene sceneID="5dW-yb-I2w">
             <objects>
-                <viewController id="avF-T0-NV8" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Tec-FJ-btq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raB-Gq-nvy">
-                                <rect key="frame" x="147" y="418" width="120" height="60"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="fC3-FQ-SDh"/>
-                                    <constraint firstAttribute="width" constant="120" id="pHP-ba-mbY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="raB-Gq-nvy" firstAttribute="centerX" secondItem="Tec-FJ-btq" secondAttribute="centerX" id="18f-Pq-Cq8"/>
-                            <constraint firstItem="raB-Gq-nvy" firstAttribute="centerY" secondItem="Tec-FJ-btq" secondAttribute="centerY" id="q8z-z5-idU"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="ZFL-5f-DKj"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="IZ1-Hx-NHa"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hdO-Ze-lr3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Purple" id="kky-uJ-C7q" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="96J-zF-h9g"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B45-tB-Pun" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2281" y="68"/>
+            <point key="canvasLocation" x="2112" y="68"/>
         </scene>
     </scenes>
 </document>
