@@ -1,6 +1,6 @@
 # Storyboard Refactoring
 
-## Completed Muti-Storyboar Interface Setting
+## Completed Multi-Storyboard Interface Setting
 
 ## Imbeded Navigation Controller in Tab Bar Controller
 
